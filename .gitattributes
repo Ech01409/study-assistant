@@ -1,0 +1,14 @@
+# Auto detect text files and normalize line endings to LF in the repository
+* text=auto
+
+# Explicitly declare files that should always have LF endings
+*.py text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Denote binary files
+*.png binary
+*.jpg binary
